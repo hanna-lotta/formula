@@ -2,14 +2,17 @@
 	display: flex;
   	flex-direction: column;
 	justify-self: center;
+	text-align: start;
   	gap: 1rem;
 	border: 1px solid #ccc;
   	padding: 1rem;
   	border-radius: 5px;
   	background-color: #e7eb9c;
+	color: black;
   	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   	transition: all 0.3s ease;
 	width: 30em;
+	
   	
 	&:hover {
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
